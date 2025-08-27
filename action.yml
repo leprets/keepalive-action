@@ -1,0 +1,6 @@
+name: 'Keepalive Composite Action'
+description: 'A composite action to print keepalive message'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Keepalive ping from composite action"
